@@ -50,7 +50,7 @@ pipeline {
 }
 //stage('Build Docker Image') {
  //           steps {
- //               withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: 'azzahajri8797', usernameVariable: 'azzaengineer')]) {
+ //               withCredentials([usernamePassword(credentialsId: 'dockerhub', passwordVariable: '******', usernameVariable: '*******')]) {
  //                 sh "docker login -u azzaengineer --password "  
  //               }
  //               
